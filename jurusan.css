@@ -1,0 +1,171 @@
+
+
+* {
+    font-family: 'poppins';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: aliceblue;
+    color: white;
+    font-family: "poppins" sans-serif;
+    border-color: black solid 1px;
+    top: 0;
+    z-index: 9999;
+}
+
+nav img {
+    margin-left: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dpib,
+.titl,
+.tpm,
+.tkro,
+.tjk,
+.rpl,
+.tsm,
+.tki,
+.tei {
+    box-sizing: border-box;
+    border: 1px black solid;
+    display: block;
+    margin: 10px;
+    max-width: 350px;
+}
+
+.jurusan {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.jurusan1 {
+    display: flex;
+    justify-content: center;
+    font-family: "poppins", sans-serif;
+}
+
+.jurusan2 {
+    display: flex;
+    justify-content: center;
+}
+
+.jurusan3 {
+    display: flex;
+    justify-content: center;
+}
+
+header span {
+    color: orange;
+    font-family: "Noto Serif", serif;
+}
+
+header h1 {
+    font-family: "Noto Serif" sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.jurusan svg {
+    width: 10vw;
+    fill: blue;
+}
+
+.jurusan h3 {
+    color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 15vh;
+    padding: 6vh 0vw;
+}
+
+.dpib,
+.titl,
+.tpm,
+.tkro,
+.tjk,
+.rpl,
+.tsm,
+.tki,
+.tei {
+    margin: 10px auto;
+    width: 20vw;
+    box-sizing: border-box;
+    position: relative;
+    padding: 58px 30px 50px 30px;
+    border: 2px solid #f7f7f7;
+    border-radius: 10px;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.dpib p,
+.titl p,
+.tpm p,
+.tkro p,
+.tjk p,
+.rpl p,
+.tsm p,
+.tki p,
+.tei p {
+    margin: 20px 5px;
+}
+
+.dpib:hover,
+.titl:hover,
+.tpm:hover,
+.tkro:hover,
+.tjk:hover,
+.rpl:hover,
+.tsm:hover,
+.tki:hover,
+.tei:hover {
+    border: 2px solid blue ;
+}
+
+button {
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    box-shadow: 1px 2px 1px black;
+}
